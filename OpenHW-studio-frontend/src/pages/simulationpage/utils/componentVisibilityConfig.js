@@ -283,7 +283,7 @@ export function resolveComponentDetails(type, manifest = {}) {
   const limitations = override.limitations || manifest.limitations || [];
 
   // 4. Notes
-  const notes = override.notes || manifest.notes || override.warning || (status === 'in-development' ? 'Simulation model is currently under active development by the OpenHW-Studio team.' : 'Fully supported in simulation.');
+  const notes = override.notes || manifest.notes || override.warning || (status === 'in-development' ? 'Simulation model is currently under active development by the CircuitLab AI team.' : 'Fully supported in simulation.');
 
   // 5. Documentation slug (maps to openhw-studio-docs/components/)
   const docSlug = override.docSlug || manifest.docSlug || type;

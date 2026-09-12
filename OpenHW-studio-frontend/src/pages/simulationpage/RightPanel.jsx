@@ -75,21 +75,21 @@ const RightPanelInternal = React.forwardRef((props, ref) => {
     // Add Custom Commands to the Command Palette (F1)
     editor.addAction({
       id: 'openhw-save',
-      label: 'OpenHW: Save Current File',
+      label: 'CircuitLab AI: Save Current File',
       keybindings: [monaco.KeyMod.CtrlCmd | monaco.KeyCode.KeyS],
       run: () => onSaveCodeFile?.(activeCodeFileId)
     });
 
     editor.addAction({
       id: 'openhw-toggle-explorer',
-      label: 'OpenHW: Toggle File Explorer',
+      label: 'CircuitLab AI: Toggle File Explorer',
       keybindings: [monaco.KeyMod.CtrlCmd | monaco.KeyMod.Shift | monaco.KeyCode.KeyE],
       run: () => onToggleCodeExplorer?.()
     });
 
     editor.addAction({
       id: 'openhw-compare-file',
-      label: 'OpenHW: Compare with Another File...',
+      label: 'CircuitLab AI: Compare with Another File...',
       run: () => {
         const otherFiles = (projectFiles || []).filter(f => f.id !== activeCodeFileId && f.kind === 'code');
         if (otherFiles.length === 0) {

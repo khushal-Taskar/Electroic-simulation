@@ -970,7 +970,7 @@ export default function UserManagerTab({ showToast }) {
                                 )}
                             </div>
                             <p style={{ margin: 0, fontSize: 12, color: 'var(--ad-text-3)', lineHeight: 1.5 }}>
-                                Lifting the block will allow this email to sign in (if an account exists) or register a new account on OpenHW Studio. An unblock confirmation email will be sent.
+                                Lifting the block will allow this email to sign in (if an account exists) or register a new account on CircuitLab AI. An unblock confirmation email will be sent.
                             </p>
                         </div>
                         <div className="ad-modal-footer">

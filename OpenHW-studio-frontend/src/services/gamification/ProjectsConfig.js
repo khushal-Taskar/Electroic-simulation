@@ -1098,7 +1098,7 @@ void setup() {
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
   display.clearDisplay();
   display.setTextSize(2); display.setTextColor(SSD1306_WHITE);
-  display.setCursor(10,10); display.println("OpenHW");
+  display.setCursor(10,10); display.println("CircuitLab AI");
   display.drawLine(0,30,127,30,SSD1306_WHITE);
   display.setTextSize(1); display.setCursor(0,40); display.println("128x64 OLED Demo");
   display.display();
@@ -1855,7 +1855,7 @@ class CharCallbacks : public BLECharacteristicCallbacks {
 void setup() {
   pinMode(LED_PIN, OUTPUT);
   Serial.begin(115200);
-  BLEDevice::init("OpenHW-ESP32");
+  BLEDevice::init("CircuitLabAI-ESP32");
   BLEServer* server = BLEDevice::createServer();
   server->setCallbacks(new ServerCallbacks());
   BLEService* service = server->createService(SERVICE_UUID);
@@ -1863,12 +1863,12 @@ void setup() {
   ch->setCallbacks(new CharCallbacks());
   service->start();
   server->getAdvertising()->start();
-  Serial.println("BLE advertising as: OpenHW-ESP32");
+  Serial.println("BLE advertising as: CircuitLabAI-ESP32");
 }
 
 void loop() { delay(1000); }`,
     concepts: ['BLE GATT services', 'Characteristics', 'Callbacks', 'UUID', 'BLE advertising'],
-    kidFriendlyTip: '🔵 Use the free "nRF Connect" app on your phone to find "OpenHW-ESP32", connect, and write "ON" or "OFF" to control the LED!',
+    kidFriendlyTip: '🔵 Use the free "nRF Connect" app on your phone to find "CircuitLabAI-ESP32", connect, and write "ON" or "OFF" to control the LED!',
     evaluation: {
       passingThreshold: 70,
       evaluationCriteria: {
@@ -1998,7 +1998,7 @@ void loop() {
   display.clearDisplay();
   display.setTextSize(1); display.setTextColor(WHITE);
 
-  display.setCursor(0, 0);  display.println("OpenHW Dashboard");
+  display.setCursor(0, 0);  display.println("CircuitLab AI Dashboard");
   display.drawLine(0, 10, 127, 10, WHITE);
   display.setCursor(0, 14); display.print("IP: "); display.println(WiFi.localIP());
   display.setCursor(0, 26); display.print("RSSI: "); display.print(WiFi.RSSI()); display.println(" dBm");

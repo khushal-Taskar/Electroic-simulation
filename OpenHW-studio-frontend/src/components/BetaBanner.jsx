@@ -87,7 +87,7 @@ export default function BetaBanner() {
 
         {/* Message */}
         <p style={s.message}>
-          OpenHW-Studio is actively under development — you may encounter bugs.
+          CircuitLab AI is actively under development — you may encounter bugs.
           Found one?{" "}
           <a
             href="https://github.com/OpenHW-Studio/OpenHW-studio-frontend/issues/new?template=bug_report.md"

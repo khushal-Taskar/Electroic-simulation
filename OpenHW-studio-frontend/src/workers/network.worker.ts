@@ -182,7 +182,7 @@ async function handlePortMessage(e: MessageEvent): Promise<void> {
     case 'ANNOUNCE_AP': {
       const config: WiFiApConfig = {
         componentId: e.data.componentId,
-        ssid:        e.data.ssid ?? 'OpenHW-GUEST',
+        ssid:        e.data.ssid ?? 'CircuitLab-AI-GUEST',
         password:    e.data.password ?? '',
         channel:     Number(e.data.channel ?? 6),
         internet:    Boolean(e.data.internet ?? true),

@@ -2,7 +2,7 @@ import { loader } from '@monaco-editor/react';
 
 /**
  * Configure Monaco Editor to use local workers and a custom theme
- * that matches the OpenHW Studio aesthetic.
+ * that matches the CircuitLab AI aesthetic.
  */
 export const configureMonaco = () => {
   loader.config({

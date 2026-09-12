@@ -512,7 +512,7 @@ export default function SignupPage() {
 
             <header className="hardware-panel__header">
               <h2>INITIALIZE {formData.role === "teacher" ? "INSTRUCTOR" : "STUDENT"} NODE</h2>
-              <p>Configure your access parameters for the OpenHW Studio simulation environment.</p>
+              <p>Configure your access parameters for the CircuitLab AI simulation environment.</p>
             </header>
 
             <form className="hardware-form" onSubmit={handleSignup}>
@@ -630,7 +630,7 @@ export default function SignupPage() {
                   className="hardware-checkbox"
                 />
                 <label htmlFor="terms" className="hardware-checkbox-label">
-                  I acknowledge the strict compliance requirements of the OpenHW Group Academic Terms and verify my eligibility for {formData.role === "teacher" ? "Instructor" : "Student"} access.
+                  I acknowledge the strict compliance requirements of the CircuitLab AI Group Academic Terms and verify my eligibility for {formData.role === "teacher" ? "Instructor" : "Student"} access.
                 </label>
               </div>
 

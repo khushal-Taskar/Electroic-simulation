@@ -45,7 +45,7 @@ const PORT = process.env.PORT || 5001;
 const role = process.env.ROLE || 'all-in-one';
 console.log(`
 =============================================================
-  OPENHW STUDIO BACKEND - ROLE: ${role.toUpperCase()}
+  CIRCUITLAB AI BACKEND - ROLE: ${role.toUpperCase()}
   Port: ${PORT}
 =============================================================
 `);
@@ -282,7 +282,7 @@ initESP32Module(server);
 initSTM32Module(server);
 
 server.listen(PORT, async () => {
-  console.log(`OpenHW Studio Backend running on port ${PORT}`);
+  console.log(`CircuitLab AI Backend running on port ${PORT}`);
 
   const budgetFile = path.resolve(backendRoot, 'data/calibrated_budget.json');
   if (!fs.existsSync(budgetFile)) {

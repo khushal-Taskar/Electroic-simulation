@@ -395,9 +395,9 @@ export default function AdventureMapPage() {
 
   useEffect(() => {
     if (!journeyParam) {
-      document.title = "OpenHW Studio - Adventure Hub (Universal Shell)"
+      document.title = "CircuitLab AI - Adventure Hub (Universal Shell)"
     } else {
-      document.title = "OpenHW Studio - Adventure Map"
+      document.title = "CircuitLab AI - Adventure Map"
     }
   }, [journeyParam])
 
@@ -767,7 +767,7 @@ export default function AdventureMapPage() {
               color: '#2563eb',
               letterSpacing: '-0.02em',
               cursor: 'pointer',
-            }} onClick={() => navigate('/student/dashboard')}>OpenHW Studio</span>
+            }} onClick={() => navigate('/student/dashboard')}>CircuitLab AI</span>
             <div style={{
               display: 'flex',
               alignItems: 'center',

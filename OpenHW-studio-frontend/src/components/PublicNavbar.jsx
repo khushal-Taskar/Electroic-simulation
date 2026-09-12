@@ -75,12 +75,12 @@ export default function PublicNavbar({ links, actions }) {
           onKeyDown={(e) => e.key === "Enter" && navigate("/")}
         >
           <img
-            src="/logo-Photoroom.png"
-            alt="OpenHW-Studio"
+            src="/circuitlab-ai-logo.svg"
+            alt="CircuitLab AI"
             className="public-navbar__logo"
           />
           <div className="public-navbar__brand-text">
-            <div className="public-navbar__brand-name">OpenHW-Studio</div>
+            <div className="public-navbar__brand-name">CircuitLab AI</div>
             <div className="public-navbar__brand-sub">By FOSSEE, IIT Bombay</div>
           </div>
         </div>

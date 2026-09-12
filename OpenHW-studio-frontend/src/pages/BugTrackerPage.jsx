@@ -260,7 +260,7 @@ export default function BugTrackerPage() {
       ? item.failingFeatures.map((f) => `- [ ] ${f}`).join("\n")
       : "";
 
-    const body = `### 🐛 Bug Description\n${item.description}\n\n${item.componentLabel ? `### 🔌 Target Component\n- **Component**: ${item.componentLabel}\n- **Type**: \`${item.componentType}\`` : ""}\n\n${checklist ? `### ⚠️ Failing Features Checklist\n${checklist}\n\n` : ""}${item.stepsToReproduce ? `### 🔄 Steps to Reproduce\n${item.stepsToReproduce}\n\n` : ""}${item.codeSnippet ? `### 💻 Sketch Code\n\`\`\`cpp\n${item.codeSnippet}\n\`\`\`\n\n` : ""}### 🖥️ Diagnostics\n- **Reported via**: OpenHW-Studio Bug Tracker\n- **Reporter**: ${item.reporterName || "Community Member"}\n- **Environment**: ${item.browserInfo || "N/A"}`;
+    const body = `### 🐛 Bug Description\n${item.description}\n\n${item.componentLabel ? `### 🔌 Target Component\n- **Component**: ${item.componentLabel}\n- **Type**: \`${item.componentType}\`` : ""}\n\n${checklist ? `### ⚠️ Failing Features Checklist\n${checklist}\n\n` : ""}${item.stepsToReproduce ? `### 🔄 Steps to Reproduce\n${item.stepsToReproduce}\n\n` : ""}${item.codeSnippet ? `### 💻 Sketch Code\n\`\`\`cpp\n${item.codeSnippet}\n\`\`\`\n\n` : ""}### 🖥️ Diagnostics\n- **Reported via**: CircuitLab AI Bug Tracker\n- **Reporter**: ${item.reporterName || "Community Member"}\n- **Environment**: ${item.browserInfo || "N/A"}`;
 
     window.open(`${targetRepoUrl}/issues/new?title=${encodeURIComponent(issueTitle)}&body=${encodeURIComponent(body)}`, "_blank");
   };
@@ -323,7 +323,7 @@ export default function BugTrackerPage() {
         );
       default:
         return (
-          <span className="bt-repo-tag bt-repo-frontend" title="Managed in OpenHW-studio-frontend">
+          <span className="bt-repo-tag bt-repo-frontend" title="Managed in CircuitLab AI frontend">
             <Layers size={12} />
             <span>Frontend</span>
           </span>
@@ -653,7 +653,7 @@ export default function BugTrackerPage() {
                         disabled={savingAdmin}
                       >
                         <option value="emulator">openhw-studio-emulator (Hardware/Pins)</option>
-                        <option value="frontend">OpenHW-studio-frontend (Canvas/UI)</option>
+                        <option value="frontend">CircuitLab AI Frontend (Canvas/UI)</option>
                         <option value="backend">openhw-studio-backend (Compiler/API)</option>
                       </select>
                     </div>
@@ -780,7 +780,7 @@ export default function BugTrackerPage() {
                         <div className="bt-comment-header">
                           <div className="bt-comment-author">
                             <ShieldCheck size={13} className="text-emerald" />
-                            <strong>{cm.authorName || "OpenHW Team"}</strong>
+                            <strong>{cm.authorName || "CircuitLab AI Team"}</strong>
                             <span className="bt-staff-badge">Staff</span>
                           </div>
                           <span className="bt-comment-time">

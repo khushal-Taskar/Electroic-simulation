@@ -141,7 +141,7 @@ export default function SigninPage() {
             <header className="hardware-panel__header">
               <h2>CLASSROOM SIGN IN</h2>
               <p>
-                Authenticate your credential tokens to access the OpenHW Studio
+                Authenticate your credential tokens to access the CircuitLab AI
                 workspace.
               </p>
             </header>

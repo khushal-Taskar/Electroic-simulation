@@ -157,7 +157,7 @@ export default function UserProfilePage() {
       <header className="student-db-header">
         <div className="student-db-header__left">
           <Link to="/" className="student-db-header__brand">
-            <img src="/logo-cropped.png" alt="OpenHW Studio" style={{ height: "65px", width: "130px", objectFit: "contain" }} />
+            <img src="/circuitlab-ai-logo.svg" alt="CircuitLab AI" style={{ height: "65px", width: "130px", objectFit: "contain" }} />
           </Link>
         </div>
         <div className="student-db-header__right">

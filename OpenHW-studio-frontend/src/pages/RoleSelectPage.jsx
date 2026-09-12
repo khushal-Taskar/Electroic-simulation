@@ -7,7 +7,7 @@ export default function RoleSelectPage() {
     <div className="auth-page">
       <div className="auth-card">
         <h1>Select Your Role</h1>
-        <p>How will you be using OpenHW-Studio?</p>
+        <p>How will you be using CircuitLab AI?</p>
         <div className="role-options">
           <button className="role-btn" onClick={() => navigate('/student/dashboard')}>
             <span className="role-emoji">🎓</span>

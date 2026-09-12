@@ -466,7 +466,7 @@ function genIndexCode(d) {
 
 function genDocsHTML(d) {
   const title = escapeHtml(d.label || 'Component')
-  const subtitle = escapeHtml(d.description || 'Custom component documentation for OpenHW Studio.')
+  const subtitle = escapeHtml(d.description || 'Custom component documentation for CircuitLab AI.')
   const sizeText = `${Number(d.w) || 100} x ${Number(d.h) || 80}`
   const telemetryTemplate = escapeHtml((d.telemetryTemplate || '').trim() || 'not-set')
   const telemetryKeys = (Array.isArray(d.telemetryCriticalKeys) ? d.telemetryCriticalKeys : [])
@@ -484,7 +484,7 @@ function genDocsHTML(d) {
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>${title} | OpenHW Studio</title>
+<title>${title} | CircuitLab AI</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: 'Segoe UI', sans-serif; background: #0f1117; color: #e2e8f0; line-height: 1.7; }
@@ -562,7 +562,7 @@ update(cpuCycles, wires, allInstances) {
 
     <div class="try-section">
       <h2 style="margin-top:0;">Try in Simulator</h2>
-      <p>Import this component ZIP into OpenHW Studio and place it on the canvas to validate visuals, context menu, and logic behavior.</p>
+      <p>Import this component ZIP into CircuitLab AI and place it on the canvas to validate visuals, context menu, and logic behavior.</p>
     </div>
   </div>
 </body>

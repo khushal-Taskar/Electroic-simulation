@@ -1,6 +1,6 @@
-# OpenHW Studio — React Frontend
+# CircuitLab AI — React Frontend
 
-> The interactive web-based UI for the OpenHW Studio electronics simulation platform. Built with React + Vite, it renders a drag-and-drop circuit editor, streams live simulation state from the emulator, and drives Wokwi web components in real time.
+> The interactive web-based UI for the CircuitLab AI electronics simulation platform. Built with React + Vite, it renders a drag-and-drop circuit editor, streams live simulation state from the emulator, and drives Wokwi web components in real time.
 
 ---
 
@@ -20,7 +20,7 @@
 
 ## Overview
 
-OpenHW Studio Frontend is the **visual client** of the simulator platform. It allows users to:
+CircuitLab AI Frontend is the **visual client** of the simulator platform. It allows users to:
 
 - Design circuits by placing and wiring components on a canvas
 - Write and edit Arduino C++ code in a built-in syntax-highlighted editor
@@ -357,4 +357,4 @@ POST /api/compile  ──►  Compiler Backend (port 5001)
 
 ---
 
-*Part of the OpenHW Studio platform. See also: [openhw-studio-backend](../openhw-studio-backend) and [openhw-studio-emulator](../openhw-studio-emulator).*
+*Part of the CircuitLab AI platform. See also: [openhw-studio-backend](../openhw-studio-backend) and [openhw-studio-emulator](../openhw-studio-emulator).*

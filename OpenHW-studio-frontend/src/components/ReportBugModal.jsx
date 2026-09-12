@@ -191,7 +191,7 @@ export default function ReportBugModal({
       markdownBody += `- **Browser:** \`${navigator.userAgent}\`\n`;
       markdownBody += `- **Platform / OS:** \`${navigator.platform || "Unknown"}\`\n`;
     }
-    markdownBody += `- **Source:** OpenHW-Studio Web Simulator Form\n`;
+    markdownBody += `- **Source:** CircuitLab AI Web Simulator Form\n`;
 
     const issueBody = encodeURIComponent(markdownBody);
     return `${repo}/issues/new?title=${issueTitle}&body=${issueBody}`;
@@ -207,7 +207,7 @@ export default function ReportBugModal({
               {type === "bug" ? "Report a Bug / Issue" : "Submit Feature Request"}
             </h3>
             <p className="report-modal-sub">
-              Your feedback is saved directly into OpenHW-Studio without needing a GitHub account.
+              Your feedback is saved directly into CircuitLab AI without needing a GitHub account.
             </p>
           </div>
           <button className="report-close-btn" onClick={onClose} aria-label="Close">
@@ -219,7 +219,7 @@ export default function ReportBugModal({
           <div className="report-success-state">
             <CheckCircle2 size={46} className="success-icon" />
             <h4>Feedback Submitted Successfully!</h4>
-            <p>Our engineering team has received your report. Thank you for helping improve OpenHW-Studio!</p>
+            <p>Our engineering team has received your report. Thank you for helping improve CircuitLab AI!</p>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="report-modal-form">

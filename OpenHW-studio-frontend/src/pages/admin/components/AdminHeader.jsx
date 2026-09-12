@@ -43,7 +43,7 @@ const AdminHeader = ({ activeTab, onRefresh, onToggleSidebar, theme, onToggleThe
 
                 <div>
                     <h1 className="ad-header-title">{TAB_LABELS[activeTab] ?? activeTab}</h1>
-                    <p className="ad-header-subtitle">OpenHW Admin Console</p>
+                    <p className="ad-header-subtitle">CircuitLab AI Admin Console</p>
                 </div>
             </div>
 

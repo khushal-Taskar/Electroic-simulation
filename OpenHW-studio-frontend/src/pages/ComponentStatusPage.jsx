@@ -66,7 +66,7 @@ ${inProgressList ? `\n**Under Development Features:**\n${inProgressList}` : ""}
 <!-- Describe clearly what happened versus what you expected to happen -->
 
 ### 🔄 Steps to Reproduce
-1. In OpenHW-Studio Simulator, add component \`${comp.type}\`
+1. In CircuitLab AI Simulator, add component \`${comp.type}\`
 2. Connect pins:
 3. Run the sketch:
 
@@ -84,7 +84,7 @@ void loop() {
 ### 🖥️ Environment
 - **Browser**: ${typeof navigator !== "undefined" ? navigator.userAgent : "Chrome"}
 - **OS**: Linux / Windows / macOS
-- **OpenHW-Studio Version**: Web Beta
+- **CircuitLab AI Version**: Web Beta
 `;
 
   return `https://github.com/OpenHW-Studio/openhw-studio-emulator/issues/new?title=${encodeURIComponent(
@@ -279,7 +279,7 @@ export default function ComponentStatusPage() {
           <p className="status-subtitle">
             Real-time simulation capabilities, verification levels, and
             architectural support across all microcontroller boards and
-            peripherals in OpenHW-Studio.
+            peripherals in CircuitLab AI.
           </p>
 
           {/* Metric Stats Cards */}

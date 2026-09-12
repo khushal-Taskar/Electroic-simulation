@@ -567,7 +567,7 @@ function TopToolboxInternal(props) {
       submenu: assistMenuItems,
     },
     { type: "separator" },
-    { label: "About OpenHW Studio", onClick: () => navigate("/about") },
+    { label: "About CircuitLab AI", onClick: () => navigate("/about") },
   ];
 
   return (
@@ -581,8 +581,8 @@ function TopToolboxInternal(props) {
 
       <div className="flex items-center gap-4">
         <img
-          src="/logo-Photoroom.png"
-          alt="OpenHW Studio Logo"
+          src="/circuitlab-ai-logo.svg"
+          alt="CircuitLab AI Logo"
           title="Go to Landing Page"
           draggable="false"
           style={{

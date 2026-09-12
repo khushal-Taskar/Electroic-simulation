@@ -1052,7 +1052,7 @@ export default function TeacherProjectContentEditor() {
         {/* Left: logo + back button */}
         <div className="student-db-header__left" style={{ gap: 16 }}>
           <a href="/" className="student-db-header__brand">
-            <img src="/logo-cropped.png" alt="OpenHW Studio" style={{ height: '65px', width: '130px', objectFit: 'contain' }} />
+            <img src="/circuitlab-ai-logo.svg" alt="CircuitLab AI" style={{ height: '65px', width: '130px', objectFit: 'contain' }} />
           </a>
           <button
             type="button"
@@ -1515,7 +1515,7 @@ export default function TeacherProjectContentEditor() {
               ) : (
                 <button type="button" onClick={() => refCircuitInputRef.current?.click()} className="assessment-upload-box">
                   <span style={{ fontSize: 22 }}>📤</span>
-                  Choose a PNG exported from OpenHW-Studio …
+                  Choose a PNG exported from CircuitLab AI …
                 </button>
               )}
 

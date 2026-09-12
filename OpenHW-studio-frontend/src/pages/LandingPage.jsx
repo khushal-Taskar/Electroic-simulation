@@ -376,8 +376,8 @@ export default function LandingPage() {
       <footer className="footer">
         <div className="footer-brand">
           <img
-            src="/logo-Photoroom.png"
-            alt="OpenHW-Studio"
+            src="/circuitlab-ai-logo.svg"
+            alt="CircuitLab AI"
             className="brand-logo brand-logo--footer"
           />
         </div>

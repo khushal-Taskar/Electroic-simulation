@@ -28,7 +28,7 @@ const indexFile = path.join(dataDir, 'index.ts');
 });
 
 if (!fs.existsSync(indexFile)) {
-  fs.writeFileSync(indexFile, '// OpenHW Studio Component Index\n');
+  fs.writeFileSync(indexFile, '// CircuitLab AI Component Index\n');
   console.log(`Initialized: ${indexFile}`);
 }
 
@@ -68,5 +68,5 @@ const server = http.createServer(app);
 websocketManager.init(server);
 
 server.listen(PORT, () => {
-  console.log(`OpenHW Studio Backend running on port ${PORT}`);
+  console.log(`CircuitLab AI Backend running on port ${PORT}`);
 });

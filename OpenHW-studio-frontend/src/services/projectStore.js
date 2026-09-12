@@ -1,7 +1,7 @@
 /**
  * projectStore.js
  *
- * Two-tier project persistence for OpenHW Studio:
+ * Two-tier project persistence for CircuitLab AI:
  *   1. IndexedDB (local) — works offline, for all users
  *   2. Backend / MongoDB (cloud) — for authenticated users via API
  *   3. Multi-Tab Broadcast Sync — real-time synchronization across browser tabs

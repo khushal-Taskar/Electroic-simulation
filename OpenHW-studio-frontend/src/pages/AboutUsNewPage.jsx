@@ -528,13 +528,13 @@ export default function AboutUsNewPage() {
         <section className="about-hero">
           <div className="about-wrap about-hero-grid">
             <div>
-              <span className="about-eyebrow">About OpenHW-Studio</span>
+              <span className="about-eyebrow">About CircuitLab AI</span>
               <h1>
                 Building the future of<br />
                 <span className="accent">open hardware</span> education
               </h1>
               <p className="lede">
-                OpenHW-Studio is an open-source platform developed under{" "}
+                CircuitLab AI is an open-source platform developed under{" "}
                 <a href="https://fossee.in" target="_blank" rel="noopener noreferrer">
                   FOSSEE — Free/Libre and Open Source Software for Education, IIT Bombay
                 </a>
@@ -560,7 +560,7 @@ export default function AboutUsNewPage() {
                 <h3>Our vision</h3>
                 <p>
                   We envision a future where anyone, anywhere can learn, experiment, prototype, and
-                  innovate with open technologies. OpenHW-Studio bridges theory and hands-on practice in
+                  innovate with open technologies. CircuitLab AI bridges theory and hands-on practice in
                   one unified platform for hardware design, programming, and simulation.
                 </p>
               </div>
@@ -570,7 +570,7 @@ export default function AboutUsNewPage() {
                 </div>
                 <h3>Built through open collaboration</h3>
                 <p>
-                  OpenHW-Studio is more than software — it's a community-driven initiative. From
+                  CircuitLab AI is more than software — it's a community-driven initiative. From
                   frontend and embedded systems to documentation and educational content, every
                   contributor helps shape where the platform goes next.
                 </p>
@@ -582,7 +582,7 @@ export default function AboutUsNewPage() {
                 <h3>For learners, educators &amp; makers</h3>
                 <p>
                   Whether you're a school student wiring your first circuit, a college student
-                  building IoT applications, or an educator designing a practical course, OpenHW-Studio
+                  building IoT applications, or an educator designing a practical course, CircuitLab AI
                   is built around your learning journey.
                 </p>
               </div>
@@ -599,7 +599,7 @@ export default function AboutUsNewPage() {
                 <div className="about-strip-copy">
                   <h3>Contributors. One open platform.</h3>
                   <p>
-                    OpenHW-Studio is built by a distributed team of engineers collaborating openly
+                    CircuitLab AI is built by a distributed team of engineers collaborating openly
                     under the FOSSEE project at IIT Bombay.
                   </p>
                 </div>
@@ -618,7 +618,7 @@ export default function AboutUsNewPage() {
               <span className="about-eyebrow">Project Leadership</span>
               <h2>Guided by the FOSSEE project</h2>
               <p>
-                OpenHW-Studio is developed under the guidance and leadership of the FOSSEE project at IIT Bombay.
+                CircuitLab AI is developed under the guidance and leadership of the FOSSEE project at IIT Bombay.
               </p>
             </div>
             <div className="about-lead-grid">
@@ -695,7 +695,7 @@ export default function AboutUsNewPage() {
             <div className="about-join">
               <h3>Join the Journey</h3>
               <p>
-                OpenHW-Studio is continuously evolving, and we're always looking for enthusiastic contributors. Whether you're interested in software development, embedded systems, educational content, UI/UX design, testing, documentation, or community building, there's a place for you.
+                CircuitLab AI is continuously evolving, and we're always looking for enthusiastic contributors. Whether you're interested in software development, embedded systems, educational content, UI/UX design, testing, documentation, or community building, there's a place for you.
               </p>
               <p className="bold-line">
                 Together, we can create an open platform that empowers the next generation of innovators.
@@ -719,9 +719,9 @@ export default function AboutUsNewPage() {
           <div className="about-foot-grid">
             <div className="about-foot-brand">
               <div className="about-brand">
-                <img src="/logo-Photoroom.png" alt="OpenHW-Studio Logo" className="about-brand-logo-img" style={{ height: "42px" }} />
+                <img src="/circuitlab-ai-logo.svg" alt="CircuitLab AI Logo" className="about-brand-logo-img" style={{ height: "42px" }} />
                 <div className="about-brand-text">
-                  <div className="name">OpenHW-Studio</div>
+                  <div className="name">CircuitLab AI</div>
                   <div className="sub">By FOSSEE, IIT Bombay</div>
                 </div>
               </div>
@@ -785,7 +785,7 @@ export default function AboutUsNewPage() {
             </div>
           </div>
           <div className="about-foot-bottom">
-            <span>© 2026 OpenHW-Studio | FOSSEE, IIT Bombay</span>
+            <span>© 2026 CircuitLab AI | FOSSEE, IIT Bombay</span>
           </div>
         </div>
       </footer>

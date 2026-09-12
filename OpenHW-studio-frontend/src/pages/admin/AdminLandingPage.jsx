@@ -76,7 +76,7 @@ export default function AdminLandingPage() {
                     </div>
 
                     <h1 className="text-5xl md:text-6xl font-black mb-6 tracking-tighter">
-                        OpenHW<span className="text-blue-500">Studio</span>
+                        CircuitLab <span className="text-blue-500">AI</span>
                     </h1>
                     <div className="h-px w-24 bg-gradient-to-r from-transparent via-slate-700 to-transparent mb-8"></div>
                     <h2 className="text-xl text-slate-400 font-semibold mb-4 tracking-widest uppercase">Administration Portal</h2>
@@ -116,7 +116,7 @@ export default function AdminLandingPage() {
 
             {/* Footer */}
             <div className="mt-12 text-slate-700 text-sm font-bold tracking-widest uppercase z-10 flex items-center gap-6">
-                <span>© 2024 OpenHW-Studio</span>
+                <span>© 2024 CircuitLab AI</span>
                 <div className="w-2 h-2 bg-slate-800 rounded-full"></div>
                 <span>Deployment v1.0.0-admin</span>
             </div>
