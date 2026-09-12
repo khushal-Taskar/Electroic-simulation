@@ -81,7 +81,6 @@ export default function PublicNavbar({ links, actions }) {
           />
           <div className="public-navbar__brand-text">
             <div className="public-navbar__brand-name">CircuitLab AI</div>
-            <div className="public-navbar__brand-sub">By FOSSEE, IIT Bombay</div>
           </div>
         </div>
 

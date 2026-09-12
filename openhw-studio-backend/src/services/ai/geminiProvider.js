@@ -100,20 +100,16 @@ export class GeminiProvider extends AIProvider {
     try {
       const response = await client.models.generateContent({
         model: this._model,
-        systemInstruction: SYSTEM_INSTRUCTION,
-        contents: {
-          role: 'user',
-          parts: [{ text: userPrompt }],
-        },
-        generationConfig: {
+        contents: userPrompt,
+        config: {
+          systemInstruction: SYSTEM_INSTRUCTION,
           temperature: 0.3,
           maxOutputTokens: 2048,
+          abortSignal: controller.signal,
         },
-      }, {
-        signal: controller.signal,
       });
 
-      return response.text() || '';
+      return response.text || '';
     } catch (err) {
       if (err.name === 'AbortError') {
         const timeoutErr = new Error('Gemini AI request timed out.');
