@@ -124,7 +124,7 @@ function TopToolboxInternal(props) {
   const helpMenuItems = [
     { label: "Documentation", onClick: () => window.open(DOCS_URL, "_blank") },
     {
-      label: "About OpenHW Studio",
+      label: "About CircuitLab AI",
       onClick: () => {
         navigate("/about");
       },
@@ -225,8 +225,8 @@ function TopToolboxInternal(props) {
     <header className="flex items-center justify-between px-4 h-14 bg-[var(--bg2)] border-b border-[var(--border)] shrink-0 z-[1000]">
       <div className="flex items-center gap-3">
         <img
-          src="/logo-Photoroom.png"
-          alt="OpenHW Studio Logo"
+          src="/circuitlab-ai-logo.svg"
+          alt="CircuitLab AI Logo"
           title="Go to Landing Page"
           draggable="false"
           style={{

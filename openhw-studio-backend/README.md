@@ -1,4 +1,4 @@
-# OpenHW Studio — Compiler Backend
+# CircuitLab AI — Compiler Backend
 
 > The Express.js REST API server that compiles Arduino C++ sketches into `.hex` machine code using `arduino-cli`, and handles user authentication and data storage via MongoDB.
 
@@ -18,7 +18,7 @@
 
 ## Overview
 
-The Compiler Backend is the **central API server** for OpenHW Studio. It:
+The Compiler Backend is the **central API server** for CircuitLab AI. It:
 
 - Accepts Arduino C++ source code from the frontend
 - Invokes `arduino-cli` to compile it into an AVR `.hex` file

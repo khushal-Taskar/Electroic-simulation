@@ -36,7 +36,7 @@ export function extractProjectMetaFromPng(bytes) {
     }
 
     if (markerByteIdx === -1) {
-        throw new Error('This PNG does not contain OpenHW-Studio circuit data.');
+        throw new Error('This PNG does not contain CircuitLab AI circuit data.');
     }
 
     const payloadBytes = data.slice(markerByteIdx + markerBytes.length);

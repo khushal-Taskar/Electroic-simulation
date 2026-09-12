@@ -35,10 +35,10 @@ export function ClassDetailSkeleton() {
     <div className="teacher-dashboard-page">
       <aside className="teacher-sidebar teacher-sidebar--fixed">
         <div className="teacher-sidebar__brand">
-          <span className="teacher-sidebar__brand-mark">OH</span>
+          <span className="teacher-sidebar__brand-mark">CL</span>
           <div>
-            <p className="teacher-sidebar__eyebrow">OpenHW</p>
-            <h1 className="teacher-sidebar__title">Studio</h1>
+            <p className="teacher-sidebar__eyebrow">CircuitLab AI</p>
+            <h1 className="teacher-sidebar__title">Platform</h1>
           </div>
         </div>
       </aside>

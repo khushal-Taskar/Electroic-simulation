@@ -28,7 +28,7 @@ export default function ClassCard({ classroom, index, role, userName, avatarInit
             )}
             <div>
               <h4>{classroom.name}</h4>
-              <p>{classroom.bio || 'OpenHW classroom'}</p>
+              <p>{classroom.bio || 'CircuitLab AI classroom'}</p>
             </div>
           </div>
           <div className="teacher-class-card__body">
@@ -43,7 +43,7 @@ export default function ClassCard({ classroom, index, role, userName, avatarInit
         <button type="button" className="teacher-class-card__surface" onClick={onClick}>
           <div className="teacher-class-card__banner" style={classroom.image ? { backgroundImage: `url(${classroom.image})` } : undefined}>
             <h4>{classroom.name}</h4>
-            <p>{classroom.bio || 'OpenHW classroom'}</p>
+            <p>{classroom.bio || 'CircuitLab AI classroom'}</p>
           </div>
           <div className="teacher-class-card__body">
             <div>

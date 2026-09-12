@@ -232,7 +232,7 @@ export class SDCardLogic extends SPIProtocol {
         this.storage.fill(0xff);
         this.mounted = String(manifest?.attrs?.mounted ?? 'true') !== 'false';
 
-        this.writeShadowFile('/README.TXT', this.textEncoder.encode('OpenHW virtual SD card\n'));
+        this.writeShadowFile('/README.TXT', this.textEncoder.encode('CircuitLab AI virtual SD card\n'));
 
         this.state = {
             ...this.state,
@@ -493,7 +493,7 @@ export class SDCardLogic extends SPIProtocol {
     private formatCard() {
         this.storage.fill(0xff);
         this.files.clear();
-        this.writeShadowFile('/README.TXT', this.textEncoder.encode('OpenHW virtual SD card\n'));
+        this.writeShadowFile('/README.TXT', this.textEncoder.encode('CircuitLab AI virtual SD card\n'));
 
         if (this.littleFsVolume && this.littleFsReady) {
             try {

@@ -147,7 +147,7 @@ export default function SubmitFeedbackModal({
     if (reporterEmail.trim() || user?.email) {
       markdownBody += `- **Contact Email:** ${reporterEmail.trim() || user.email}\n`;
     }
-    markdownBody += `- **Source:** OpenHW-Studio Web Simulator\n`;
+    markdownBody += `- **Source:** CircuitLab AI Web Simulator\n`;
 
     const issueBody = encodeURIComponent(markdownBody);
     return `${repo}/issues/new?title=${issueTitle}&body=${issueBody}&labels=enhancement`;
@@ -163,7 +163,7 @@ export default function SubmitFeedbackModal({
               {type === "feature" ? "Request a Feature or Board" : "Share a Review & Rating"}
             </h3>
             <p className="feedback-modal-sub">
-              Your voice guides what we build next for OpenHW-Studio.
+              Your voice guides what we build next for CircuitLab AI.
             </p>
           </div>
           <button className="feedback-close-btn" onClick={onClose} aria-label="Close">
@@ -286,7 +286,7 @@ export default function SubmitFeedbackModal({
                 {/* Role / Audience */}
                 <div className="feedback-field">
                   <label className="feedback-label">
-                    {type === "review" ? "I use OpenHW-Studio as a:" : "Target Audience / Use Case:"}
+                    {type === "review" ? "I use CircuitLab AI as a:" : "Target Audience / Use Case:"}
                   </label>
                   <select
                     className="feedback-select"
@@ -422,7 +422,7 @@ export default function SubmitFeedbackModal({
                   <p>
                     {type === "feature"
                       ? "💡 Community feature proposals are reviewed regularly by our engineering team and prioritized based on community votes."
-                      : "⭐ Verified community reviews help students, professors, and open-source contributors discover OpenHW-Studio."}
+                      : "⭐ Verified community reviews help students, professors, and open-source contributors discover CircuitLab AI."}
                   </p>
                 </div>
               </div>

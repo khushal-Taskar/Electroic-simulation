@@ -22,11 +22,11 @@
  *      causing the browser to request `/api/examples/buzzer/circuit.png` -> 404.
  *
  * 2. PNG STEGANOGRAPHY VS NORMAL IMAGES:
- *    - OpenHW-Studio can embed JSON circuit data (components, coordinates, wires,
+ *    - CircuitLab AI can embed JSON circuit data (components, coordinates, wires,
  *      and Arduino C++ code) into PNGs after the marker `\x00OPENHW_META\x00`.
  *    - If a PNG is a standard diagram/screenshot exported without this marker,
  *      `extractProjectMetaFromPng` throws an error: "This PNG does not contain
- *      OpenHW-Studio circuit data."
+ *      CircuitLab AI circuit data."
  *
  * 3. SCHEMA FALLBACK MECHANISM:
  *    - The frontend has complete, interactive circuit schemas (components, wires,

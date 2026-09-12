@@ -281,7 +281,7 @@ const toggleTheme = () => {
 
       <footer className="footer">
         <div className="footer-brand">
-          <img src="/logo-Photoroom.png" alt="OpenHW-Studio" className="brand-logo brand-logo--footer" />
+          <img src="/circuitlab-ai-logo.svg" alt="CircuitLab AI" className="brand-logo brand-logo--footer" />
         </div>
         <p>Open Source Hardware Simulation &amp; Learning Platform</p>
         <div className="footer-links">

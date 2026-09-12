@@ -4,7 +4,7 @@ import './TourGuide.css';
 const STEPS = [
   {
     id: 'welcome',
-    title: 'Welcome to OpenHW Studio! 🚀',
+    title: 'Welcome to CircuitLab AI! 🚀',
     content: "Let's take a quick 1-minute tour to see how you can build and simulate Arduino projects right in your browser.",
     target: null,
     position: 'center',

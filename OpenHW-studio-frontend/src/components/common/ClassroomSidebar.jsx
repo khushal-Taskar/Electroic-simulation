@@ -34,8 +34,8 @@ export default function ClassroomSidebar({
     <aside className="teacher-sidebar teacher-sidebar--fixed">
       <div className="teacher-sidebar__brand">
         <img
-          src="/logo-Photoroom.png"
-          alt="OpenHW-Studio"
+          src="/circuitlab-ai-logo.svg"
+          alt="CircuitLab AI"
           className="brand-logo brand-logo--sidebar"
         />
       </div>

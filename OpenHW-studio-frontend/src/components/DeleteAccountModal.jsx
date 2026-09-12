@@ -24,7 +24,7 @@ const DISCLOSURES = {
       "Your account settings and bio",
     ],
     retained: [
-      "Anonymized aggregate usage statistics may be retained to improve OpenHW Studio. No personal identity is linked.",
+      "Anonymized aggregate usage statistics may be retained to improve CircuitLab AI. No personal identity is linked.",
     ],
   },
   student: {

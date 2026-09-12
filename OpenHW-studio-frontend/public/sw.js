@@ -1,5 +1,5 @@
 /**
- * OpenHW Studio - Offline PWA Service Worker
+ * CircuitLab AI - Offline PWA Service Worker
  *
  * Provides offline caching for static assets, JavaScript bundles, Web Workers,
  * WASM binaries, and local Wokwi custom elements.
@@ -10,7 +10,7 @@ const PRECACHE_ASSETS = [
   '/',
   '/index.html',
   '/wokwi-elements.bundle.js',
-  '/title-logo.png',
+  '/circuitlab-ai-logo.svg',
   '/favicon.ico',
 ];
 

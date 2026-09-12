@@ -462,7 +462,7 @@ export default function ContributorsPage() {
         <section className="contrib-hero">
           <h1>18 Contributors. One open platform.</h1>
           <p className="lede">
-            OpenHW-Studio is built by a distributed team of engineers collaborating openly under the FOSSEE program at IIT Bombay.
+            CircuitLab AI is built by a distributed team of engineers collaborating openly under the FOSSEE program at IIT Bombay.
           </p>
         </section>
 
@@ -504,7 +504,7 @@ export default function ContributorsPage() {
         <div className="contrib-join">
           <h3>Join the Journey</h3>
           <p>
-            OpenHW-Studio is continuously evolving, and we're always looking for enthusiastic contributors. Whether you're interested in software development, embedded systems, educational content, UI/UX design, testing, documentation, or community building, there's a place for you.
+            CircuitLab AI is continuously evolving, and we're always looking for enthusiastic contributors. Whether you're interested in software development, embedded systems, educational content, UI/UX design, testing, documentation, or community building, there's a place for you.
           </p>
           <p className="bold-line">
             Together, we can create an open platform that empowers the next generation of innovators.
@@ -526,9 +526,9 @@ export default function ContributorsPage() {
           <div className="contrib-foot-grid">
             <div className="contrib-foot-brand">
               <div className="contrib-brand">
-                <img src="/logo-Photoroom.png" alt="OpenHW-Studio Logo" className="contrib-brand-logo-img" style={{ height: "42px" }} />
+                <img src="/circuitlab-ai-logo.svg" alt="CircuitLab AI Logo" className="contrib-brand-logo-img" style={{ height: "42px" }} />
                 <div className="contrib-brand-text">
-                  <div className="name">OpenHW-Studio</div>
+                  <div className="name">CircuitLab AI</div>
                   <div className="sub">By FOSSEE, IIT Bombay</div>
                 </div>
               </div>
@@ -592,7 +592,7 @@ export default function ContributorsPage() {
             </div>
           </div>
           <div className="contrib-foot-bottom">
-            <span>© 2026 OpenHW-Studio | FOSSEE, IIT Bombay</span>
+            <span>© 2026 CircuitLab AI | FOSSEE, IIT Bombay</span>
           </div>
         </div>
       </footer>

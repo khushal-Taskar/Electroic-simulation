@@ -8115,7 +8115,7 @@ export function MobileSimulatorPage({ gamificationMode = false }) {
             const img = new Image();
             img.onload = () => resolve(img);
             img.onerror = reject;
-            img.src = '/logo-Photoroom.png';
+            img.src = '/circuitlab-ai-logo.svg';
           });
         }
         const logo = await _exportLogoPromise;
@@ -8548,7 +8548,7 @@ export function MobileSimulatorPage({ gamificationMode = false }) {
         <rect x="${FX1}" y="${TBY}" width="${FW}" height="${TBH2}" fill="white" stroke="#cc0000" stroke-width="1"/>
         <line x1="${FX1 + divW}" y1="${TBY}" x2="${FX1 + divW}" y2="${TBY + TBH2}" stroke="#bbb" stroke-width="0.5"/>
         <line x1="${FX1 + divW * 2}" y1="${TBY}" x2="${FX1 + divW * 2}" y2="${TBY + TBH2}" stroke="#bbb" stroke-width="0.5"/>
-        <text x="${FX1 + 10}" y="${TBY + TBH2 / 2 + 4}" font-size="9" font-family="sans-serif" fill="#666">Made with OpenHW Studio</text>
+        <text x="${FX1 + 10}" y="${TBY + TBH2 / 2 + 4}" font-size="9" font-family="sans-serif" fill="#666">Made with CircuitLab AI</text>
         <text x="${FX1 + divW * 1.5}" y="${TBY + TBH2 / 2 - 4}" text-anchor="middle" font-size="10" font-weight="bold" font-family="sans-serif" fill="#1a1a1a">Board: ${boardLabel}</text>
         <text x="${FX1 + divW * 1.5}" y="${TBY + TBH2 / 2 + 10}" text-anchor="middle" font-size="8" font-family="sans-serif" fill="#555">${components.length} components · ${wires.length} wires</text>
         <text x="${FX1 + divW * 2.5}" y="${TBY + TBH2 / 2 + 4}" text-anchor="middle" font-size="9" font-family="sans-serif" fill="#444">${dateStr}</text>
@@ -8725,7 +8725,7 @@ export function MobileSimulatorPage({ gamificationMode = false }) {
     const isJson = fileName.endsWith('.json');
 
     if (!isPng && !isJson) {
-      alert('Please select an OpenHW-Studio PNG or JSON file.');
+      alert('Please select an CircuitLab AI PNG or JSON file.');
       if (importFileRef.current) importFileRef.current.value = '';
       return;
     }
@@ -8755,7 +8755,7 @@ export function MobileSimulatorPage({ gamificationMode = false }) {
           }
 
           if (markerByteIdx === -1) {
-            alert('This PNG does not contain OpenHW-Studio circuit data.\nOnly PNGs exported from this simulator can be imported.');
+            alert('This PNG does not contain CircuitLab AI circuit data.\nOnly PNGs exported from this simulator can be imported.');
             return;
           }
 

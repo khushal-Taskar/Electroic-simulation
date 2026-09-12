@@ -51,7 +51,7 @@ const RightPanelEditor = memo(({
     // Add Custom Commands to the Command Palette (F1)
     editor.addAction({
       id: 'openhw-save',
-      label: 'OpenHW: Save Current File',
+      label: 'CircuitLab AI: Save Current File',
       keybindings: [monaco.KeyMod.CtrlCmd | monaco.KeyCode.KeyS],
       run: () => onSaveCodeFile?.(activeCodeFileId)
     });

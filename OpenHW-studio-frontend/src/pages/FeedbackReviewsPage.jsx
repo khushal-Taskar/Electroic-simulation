@@ -375,7 +375,7 @@ export default function FeedbackReviewsPage() {
 
           <h1 className="fr-title">Reviews & Feature Requests</h1>
           <p className="fr-subtitle">
-            Share your experience using OpenHW-Studio, leave a rating, or vote on hardware
+            Share your experience using CircuitLab AI, leave a rating, or vote on hardware
             boards and simulator features you want our team to build next.
           </p>
 
@@ -519,7 +519,7 @@ export default function FeedbackReviewsPage() {
                 <>
                   <Star size={40} className="empty-icon text-gold" />
                   <h3>No reviews yet</h3>
-                  <p>Be the first to share your experience using OpenHW-Studio!</p>
+                  <p>Be the first to share your experience using CircuitLab AI!</p>
                   <button
                     className="btn btn-primary"
                     onClick={() => {
@@ -754,7 +754,7 @@ export default function FeedbackReviewsPage() {
                         <div className="fr-comment-header">
                           <div className="fr-comment-author">
                             <ShieldCheck size={13} className="text-emerald" />
-                            <strong>{cm.authorName || "OpenHW Team"}</strong>
+                            <strong>{cm.authorName || "CircuitLab AI Team"}</strong>
                             <span className="fr-staff-badge">Staff</span>
                           </div>
                           <span className="fr-comment-time">

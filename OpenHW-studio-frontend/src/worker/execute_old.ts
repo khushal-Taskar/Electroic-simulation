@@ -822,7 +822,7 @@ class SDCardLogic extends BaseComponent {
         this.storage.fill(0xff);
         this.mounted = String(manifest?.attrs?.mounted ?? 'true') !== 'false';
 
-        this.writeShadowFile('/README.TXT', this.textEncoder.encode('OpenHW virtual SD card\n'));
+        this.writeShadowFile('/README.TXT', this.textEncoder.encode('CircuitLab AI virtual SD card\n'));
 
         this.state = {
             mounted: this.mounted,
@@ -1082,7 +1082,7 @@ class SDCardLogic extends BaseComponent {
     private formatCard() {
         this.storage.fill(0xff);
         this.files.clear();
-        this.writeShadowFile('/README.TXT', this.textEncoder.encode('OpenHW virtual SD card\n'));
+        this.writeShadowFile('/README.TXT', this.textEncoder.encode('CircuitLab AI virtual SD card\n'));
 
         if (this.littleFsVolume && this.littleFsReady) {
             try {
@@ -4680,7 +4680,7 @@ export class RP2040Runner implements BoardRunner {
 
         const modeRaw = String(boardCompDef?.attrs?.wirelessMode || 'compat-stub').toLowerCase();
         const mode: 'off' | 'compat-stub' = modeRaw === 'off' ? 'off' : 'compat-stub';
-        const ssid = String(boardCompDef?.attrs?.wirelessSsid || 'OpenHW-GUEST').trim() || 'OpenHW-GUEST';
+        const ssid = String(boardCompDef?.attrs?.wirelessSsid || 'CircuitLab-AI-GUEST').trim() || 'CircuitLab-AI-GUEST';
         const ip = String(boardCompDef?.attrs?.wirelessIp || '192.168.4.2').trim() || '192.168.4.2';
         const now = performance.now();
 

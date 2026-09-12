@@ -19,7 +19,7 @@ export const ensureExportLogo = () => {
       const img = new Image();
       img.onload = () => resolve(img);
       img.onerror = () => resolve(null);
-      img.src = '/logo-Photoroom.png';
+      img.src = '/circuitlab-ai-logo.svg';
     });
   }
   return _exportLogoPromise;
